@@ -30,7 +30,7 @@ public class ArangoDBTest implements DBOperations<ArangoDBTest.Connection> {
             db = new ArangoDB.Builder()
                     .host("localhost", 8529)
                     .user("root")
-                    .password("BG4mlNZbJhHZjgdi")
+                    .password("****")
                     .build();
             database = db.db("threat");
             collection = database.collection("stix");
